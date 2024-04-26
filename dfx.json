@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "ckMinter_backend": {
+      "main": "src/ckMinter_backend/main.mo",
+      "type": "motoko"
+    },
+    "ckMinter_frontend": {
+      "dependencies": [
+        "ckMinter_backend"
+      ],
+      "source": [
+        "src/ckMinter_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "ckMinter_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

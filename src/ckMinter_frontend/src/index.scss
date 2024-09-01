@@ -35,3 +35,49 @@ button[type="submit"] {
 #greeting:empty {
   display: none;
 }
+
+
+/* Main Container Styles */
+main {
+  background-color: #1f1f1f; /* Dark background color */
+  color: #ffffff; /* White text color */
+  padding: 20px;
+}
+
+/* Button Styles */
+button {
+  background-color: #3f51b5; /* Blue color */
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #303f9f; /* Darker blue color on hover */
+}
+
+/* Bytes32Converter Styles */
+.bytes32-converter {
+  margin-top: 20px;
+}
+
+.bytes32-converter code {
+  background-color: #000000; /* Black background color */
+  color: #00ff00; /* Green text color */
+  padding: 5px;
+  border-radius: 5px;
+  display: block;
+}
+
+/* Deposit Button Styles */
+.deposit-button {
+  margin-top: 20px;
+}
+
+/* Gradient Effect */
+.gradient-bg {
+  background: linear-gradient(to right, #007bff, #0a58ca); /* Gradient from blue to darker blue */
+}

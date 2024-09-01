@@ -1,12 +1,8 @@
 {
   "canisters": {
-    "ckMinter_backend": {
-      "main": "src/ckMinter_backend/main.mo",
-      "type": "motoko"
-    },
     "ckMinter_frontend": {
       "dependencies": [
-        "ckMinter_backend"
+    
       ],
       "source": [
         "src/ckMinter_frontend/dist"
@@ -24,3 +20,7 @@
   "output_env_file": ".env",
   "version": 1
 }
+
+
+
+
